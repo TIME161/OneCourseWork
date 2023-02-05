@@ -94,10 +94,8 @@ public class Main {
         maxSalaryDepPrint(departmentCheck);
         sumDepSalary(departmentCheck);
         printDepAverageSalary(departmentCheck);
-
         salaryDepIndexation(indexationPercent, departmentCheck);
         salaryIndexation(indexationPercent);
-
         findSalaryLess(numberToCompare);
         findSalaryGreat(numberToCompare);
     }
