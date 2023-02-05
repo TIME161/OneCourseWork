@@ -4,12 +4,14 @@ public class Employee {
     private final String fullName;
     private int department;
     private double salary;
+
     public Employee(String fullName, int department, double salary) {
         this.fullName = fullName;
         this.department = department;
         this.salary = salary;
         this.id = idCreator++;
     }
+
     public int getId() {
         return id;
     }
@@ -29,6 +31,6 @@ public class Employee {
         this.salary = salary;
     }
     public String toString() {
-        return "Сотрудник " + this.id + ": " + this.fullName + " | Отдел: " + this.department + " | Оклад: " + salary;
+        return "(ID)Сотрудник " + this.id + ": " + this.fullName + " | Отдел: " + this.department + " | Оклад: " + salary;
     }
 }
